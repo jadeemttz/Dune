@@ -1,0 +1,309 @@
+*{
+box-sizing: border-box;
+}
+body{
+  margin: 0;
+  font-family: 'Century gothic', sans-serif;
+  background: linear-gradient(#3F3C37, #887C71,#CCC1AF);
+  align-content: center;
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.container{
+  max-width: 2000px;
+  margin: auto;
+  align-items: center;
+  display: flex;
+}
+#p1{
+  font-size: 1.5em;
+}
+p{
+  font-size: .5;
+}
+#contlogo
+{
+  width: 3000px;
+  height: 300px;
+  margin: 15%;
+  margin-left: 20%;
+  margin-top: 15%;
+  background-image: url(../IMG/BOTONES/IMG/logoprinc.png);
+  background-repeat: no-repeat;
+  display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 30px; 
+    background-size: cover;
+    background-position: center center;  
+}
+#h1{
+  margin: 2%;
+  background:linear-gradient(to left, #231F1B, #534940, #897869);
+  background-position: center, center;
+  background-size: cover;
+  height: 200px;
+  justify-content: center;
+  display: flex;
+  border-radius: 30px;
+  margin-bottom: 0%;
+  margin-top: 2%;
+}
+#contbu{
+  margin: 2%;
+  ont-size: 1.6em;
+    font-weight: bold;
+    padding: 20px 35px;
+    border-radius: 30px;
+    border: 0px solid ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    display: inline-flexbox;
+}
+button{
+  font-size: 2em;
+    font-weight: normal;
+    padding: 20px 80px;
+    border-radius: 30px;
+    border: 0px solid ;
+    color: #3F3C37;
+    font-weight: bold;
+    background:linear-gradient(to right, #897869 ,#B0A592,#897869) ;
+}
+button:hover{
+  color: #897869;
+  background-color: #3F3C37;
+}
+#part2 .carta{
+  padding: 50px, 0px;
+  align-items: center;
+  display: block;
+  background-position: center center;
+  background-size: cover;
+  border-radius: 30px;
+  margin-bottom: auto;
+  margin: auto;
+  border: 1px solid #534940;
+  box-shadow: 1px 1px 6px;
+  margin-top: 40px;
+}
+#as1{
+  margin:2%;
+  float: left;
+  background-color:#B0A592;
+  width: 20%;
+  border-radius: 30px;
+  padding-right: auto;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin-bottom: 40px;
+}
+#as2{
+  margin:2%;
+  float: right;
+  width: 75%;
+  height: 850px;
+  border-radius: 30px;
+  padding-right: auto;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin-bottom: 40px;
+  background-image: url(../IMG/BOTONES/IMG/asideright.png);
+  background-position: center, center;
+  background-size: cover;
+background-repeat: no-repeat;
+}
+#centrartexto{margin: 8%;
+  margin-bottom: 3%;
+  margin-top: 0%;
+  justify-content:center;
+        text-align: justify;
+}
+#ajimg{
+  background-image: url(../IMG/BOTONES/IMG/asideright.png);
+}
+footer {
+margin: 2%; 
+  color:#E4D9C6;
+  justify-content: center;
+    display: flex;
+    border-radius: 30px;
+    background: linear-gradient(to right, #897869 ,#231F1B,#897869);
+    background-size: cover;
+    background-position: center, center;
+}
+#autor{
+  width: 560px;
+  height: 90px;
+  margin: 15%;
+  margin-left: 20%;
+  margin-top: 15%;
+  background-image: url(../IMG/BOTONES/IMG/fontbolt.png);
+  background-repeat: no-repeat;
+  display: flex;
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+    background-position: center center;  
+}
+#autorimg{
+    background-image: url(../IMG/BOTONES/IMG/autorimg.png);
+}
+#as3{
+  font-size: 1.2em;
+  margin:2%;
+  float: right;
+  background-color:#B0A592;
+  width: 70%;
+  border-radius: 30px;
+  padding-right: auto;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin-bottom: 40px;
+}
+#as4{
+  margin:2%;
+  float: left;
+  width: 40%;
+  height: 850px;
+  border-radius: 30px;
+  padding-right: auto;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin-bottom: 40px;
+  background-image: url(../IMG/autorimg.png);
+  background-position: center, center;
+  background-size: cover;
+background-repeat: no-repeat;
+}
+#as5{
+  font-size: 1.2em;
+  margin:2%;
+  float: right;
+  background-color:#B0A592;
+  width: 40%;
+  border-radius: 30px;
+  padding-right: auto;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin-bottom: 40px;
+}
+#juegos{
+  width: 600px;
+  height: 90px;
+  margin: 15%;
+  margin-left: 20%;
+  margin-top: 15%;
+  background-image: url(../IMG/BOTONES/fontbolt\ \(1\).png);
+  background-repeat: no-repeat;
+  display: flex;
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+    background-position: center center;  
+}
+#peliculas{
+  width: 1000px;
+  height: 100px;
+  margin: 15%;
+  margin-left: 15%;
+  margin-top: 15%;
+  background-image: url(../IMG/BOTONES/fontbolt\ \(2\).png);
+  background-repeat: no-repeat;
+  display: flex;
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+    background-position: center center;  
+}
+#libros{
+  width: 600px;
+  height: 90px;
+  margin: 15%;
+  margin-left: 20%;
+  margin-top: 15%;
+  background-image: url(../IMG/BOTONES/fontbolt\ \(3\).png);
+  background-repeat: no-repeat;
+  display: flex;
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+    background-position: center center;  
+}
+#juegosimg{
+  background-image: url(../IMG/BOTONES/IMG/autorimg.png);
+}
+#as6{
+  margin:2%;
+  float: left;
+  width: 55%;
+  height: 700px;
+  border-radius: 30px;
+  padding-right: auto;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin-bottom: 40px;
+  background-image: url(../IMG/BOTONES/IMG/imgjuegos.png);
+  background-position: center, center;
+  background-size: cover;
+background-repeat: no-repeat;
+}
+#p2{
+  margin: 0%;
+  margin-top: 2%;
+  float: left;
+  margin-right: 0%;
+  margin
+  width: 25%;
+  border-radius: 30px;
+  padding-right: auto;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin-bottom: 40px;
+  background-position: center, center;
+  background-size: cover;
+background-repeat: no-repeat;
+}
+#peimg1{
+  margin: 0%;
+  margin-right: 0%;
+  float: left;
+  width: 80%;
+  border-radius: 60px;
+  height: 700px;
+  background-image: url(../IMG/BOTONES/img1peli.png);
+}
+#peimg2{
+  margin: 0%;
+  margin-left: 0%;
+  float: left;
+  width: 80%;
+  border-radius: 60px;
+  height: 700px;
+  background-image: url(../IMG/BOTONES/peliculaimg2.png);
+}
+#text1, #text2{
+  font-size: 1.2em;
+  margin:2%;
+  float: right;
+  background-color:#B0A592;
+  width: 40%;
+  border-radius: 30px;
+  padding-right: auto;
+  display: flex;
+  
+  margin-bottom: 40px;
+}
+#odiovivir{
+  
+
+}
