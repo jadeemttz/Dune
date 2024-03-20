@@ -29,7 +29,7 @@ p{
   margin: 15%;
   margin-left: 20%;
   margin-top: 15%;
-  background-image: url(../IMG/BOTONES/IMG/logoprinc.png);
+  background-image: url(../logoprinc.png);
   background-repeat: no-repeat;
   display: flex;
     align-items: center;
@@ -52,7 +52,7 @@ p{
 }
 #contbu{
   margin: 2%;
-  ont-size: 1.6em;
+  font-size: 1.6em;
     font-weight: bold;
     padding: 20px 35px;
     border-radius: 30px;
@@ -112,7 +112,7 @@ button:hover{
   justify-content: center;
   text-align: center;
   margin-bottom: 40px;
-  background-image: url(../IMG/BOTONES/IMG/asideright.png);
+  background-image: url(../asideright.png);
   background-position: center, center;
   background-size: cover;
 background-repeat: no-repeat;
@@ -124,7 +124,7 @@ background-repeat: no-repeat;
         text-align: justify;
 }
 #ajimg{
-  background-image: url(../IMG/BOTONES/IMG/asideright.png);
+  background-image: url(../asideright.png);
 }
 footer {
 margin: 2%; 
@@ -142,7 +142,7 @@ margin: 2%;
   margin: 15%;
   margin-left: 20%;
   margin-top: 15%;
-  background-image: url(../IMG/BOTONES/IMG/fontbolt.png);
+  background-image: url(../fontbolt.png);
   background-repeat: no-repeat;
   display: flex;
     align-items: center;
@@ -151,7 +151,7 @@ margin: 2%;
     background-position: center center;  
 }
 #autorimg{
-    background-image: url(../IMG/BOTONES/IMG/autorimg.png);
+    background-image: url(../autorimg.png);
 }
 #as3{
   font-size: 1.2em;
@@ -177,7 +177,7 @@ margin: 2%;
   justify-content: center;
   text-align: center;
   margin-bottom: 40px;
-  background-image: url(../IMG/autorimg.png);
+  background-image: url(../autorimg.png);
   background-position: center, center;
   background-size: cover;
 background-repeat: no-repeat;
@@ -201,7 +201,7 @@ background-repeat: no-repeat;
   margin: 15%;
   margin-left: 20%;
   margin-top: 15%;
-  background-image: url(../IMG/BOTONES/fontbolt\ \(1\).png);
+  background-image: url(../fontbolt\ \(1\).png);
   background-repeat: no-repeat;
   display: flex;
     align-items: center;
@@ -215,7 +215,7 @@ background-repeat: no-repeat;
   margin: 15%;
   margin-left: 15%;
   margin-top: 15%;
-  background-image: url(../IMG/BOTONES/fontbolt\ \(2\).png);
+  background-image: url(../fontbolt\ \(2\).png);
   background-repeat: no-repeat;
   display: flex;
     align-items: center;
@@ -229,7 +229,7 @@ background-repeat: no-repeat;
   margin: 15%;
   margin-left: 20%;
   margin-top: 15%;
-  background-image: url(../IMG/BOTONES/fontbolt\ \(3\).png);
+  background-image: url(../fontbolt\ \(3\).png);
   background-repeat: no-repeat;
   display: flex;
     align-items: center;
@@ -238,7 +238,12 @@ background-repeat: no-repeat;
     background-position: center center;  
 }
 #juegosimg{
-  background-image: url(../IMG/BOTONES/IMG/autorimg.png);
+  background-image: url(../imgjuegos.png);
+  width: 100%;
+  height: 600px;
+  background-position: center center;
+  background-repeat: no-repeat
+
 }
 #as6{
   margin:2%;
@@ -251,7 +256,7 @@ background-repeat: no-repeat;
   justify-content: center;
   text-align: center;
   margin-bottom: 40px;
-  background-image: url(../IMG/BOTONES/IMG/imgjuegos.png);
+  background-image: url(../);
   background-position: center, center;
   background-size: cover;
 background-repeat: no-repeat;
@@ -261,7 +266,6 @@ background-repeat: no-repeat;
   margin-top: 2%;
   float: left;
   margin-right: 0%;
-  margin
   width: 25%;
   border-radius: 30px;
   padding-right: auto;
@@ -280,7 +284,7 @@ background-repeat: no-repeat;
   width: 80%;
   border-radius: 60px;
   height: 700px;
-  background-image: url(../IMG/BOTONES/img1peli.png);
+  background-image: url(../img1peli.png);
 }
 #peimg2{
   margin: 0%;
@@ -289,14 +293,14 @@ background-repeat: no-repeat;
   width: 80%;
   border-radius: 60px;
   height: 700px;
-  background-image: url(../IMG/BOTONES/peliculaimg2.png);
+  background-image: url(../peliculaimg2.png);
 }
 #text1, #text2{
   font-size: 1.2em;
   margin:2%;
   float: right;
   background-color:#B0A592;
-  width: 40%;
+  width: 100%;
   border-radius: 30px;
   padding-right: auto;
   display: flex;
@@ -306,4 +310,12 @@ background-repeat: no-repeat;
 #odiovivir{
   
 
+}
+#matenme{
+  background-image: url(../image.png);
+  width: 100%%;
+  height: 1200px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  margin: 2%;
 }
